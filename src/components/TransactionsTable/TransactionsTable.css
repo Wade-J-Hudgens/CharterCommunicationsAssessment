@@ -1,0 +1,40 @@
+.TransactionTableContainer {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TransactionTableContainer > table {
+    display: inline-block;
+    overflow: auto;
+}
+.TransactionTableContainer td {
+    border: 1px solid black
+}
+
+.TransactionTableFilterSortContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.TransactionTableFilterSortContainer > div {
+    width: 400px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TransactionTablePaginationContainer {
+    display: flex;
+    width: 300px;
+    max-width: 100%;
+    justify-content: flex-end;
+}
+.TransactionTablePaginationContainer * {
+    margin: 5px;
+}
